@@ -9,6 +9,17 @@
       name="description"
       content="Web site created using create-react-app"
     />
+    <script>
+      (function(w,t,c,p,s,e){p=new Promise(function(r){w[c]={client:function(){if(!s){
+          s=document.createElement(t);s.src='https://js.cobrowse.io/CobrowseIO.js';s.async=1;
+          e=document.getElementsByTagName(t)[0];e.parentNode.insertBefore(s,e);s.onload=function()
+          {r(w[c]);};}return p;}};});})(window,'script','CobrowseIO');
+
+      CobrowseIO.license = "S4EsmwEijsP6tQ";
+      CobrowseIO.client().then(function(){
+        CobrowseIO.start();
+      });
+    </script>
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
